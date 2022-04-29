@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.carousel-inner {
+  height: 300px;
+}
+
+.item,
+img {
+  height: 100% !important;
+  width: 100% !important;
+}
+.testcard {
+  margin: 10px;
+  background-color: #96bed6;
+  height: 300px;
+  resize: both;
+}
+.container {
+  width: 100vw;
+  height: auto;
+  margin-top: 70px;
+  display: flex;
+  font-size: 20px;
+  border-radius: 75px;
+  border: 1px solid black;
+}
+.footer {
+  justify-content: space-around;
+  align-items: center;
+}
+.footer ul {
+  list-style: none;
+}
+.copyright {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Event Style Starts Here*/
+.eventContainer {
+  margin-top: 30px;
+  display: flex;
+  width: 100vw;
+}
+.banner {
+  width: 40%;
+  height: 400px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.eventDetails {
+  width: 60%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.bookbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+.bookbtn li {
+  list-style: none;
+  margin: 10px;
+}
+.similar {
+  text-align: center;
+}
+.description {
+  margin: 10px;
+  text-align: center;
+}
+/*Event Style Ends Here*/
+/*Profile Style Starts Here*/
+.ppcontainer {
+  display: flex;
+  width: 100%;
+}
+.profilepicture {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+.picture {
+  width: 100px;
+  height: 100px;
+}
+
+.personalDetails {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+/*Profile Style Ends Here*/
+/*Booking Style Starts Here*/
+.yourTickets h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.history h1{
+  text-align: center;
+  margin-top: 10px;
+}
